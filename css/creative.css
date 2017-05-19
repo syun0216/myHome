@@ -424,6 +424,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
-.popover .top {
+.top {
   margin-top: -32px !important;
 }
