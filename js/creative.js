@@ -61,5 +61,20 @@
         }
     });
 
+    $(".list-inline a").bind("click",function () {
+        $(this).popover({
+            animation:true,
+            delay:1
+        });
+        // console.log($(this).siblings('a'));
+        $(this).siblings("a").popover('hide');
+
+    });
+    $('.list-inline').bind("mouseover",function () {
+        $(this).popover({
+            animation:true,
+            delay:1
+        });
+    })
 })(jQuery); // End of use strict
 
